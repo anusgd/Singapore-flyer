@@ -1,4 +1,4 @@
-.circle-button {
+.circle-button-dwn {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
@@ -10,7 +10,7 @@
     transition: background-position 0.5s, transform 0.3s ease-in-out;
 }
 
-.circle-button:hover {
+.circle-button-dwn:hover {
     transform: scale(1.1);
 }
 

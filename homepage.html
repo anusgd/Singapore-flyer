@@ -344,7 +344,7 @@
 
 
     <!-- The Modal -->
-    <div class="modal fade" id="myModal">
+    <div class="modal fade" id="myModal" style="z-index:100000000">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
 
@@ -369,7 +369,8 @@
 
 
     <!-- Offcanvas component -->
-    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+        style="z-index:100000000">
         <div class="offcanvas-header ">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas Example</h5>
 
@@ -496,7 +497,7 @@
 
     <!--App Download Button bottom right-->
     <div class=" fixed-bottom-right">
-        <button id="modalButton" class="circle-button d-flex justify-content-center align-items-center"
+        <button id="modalButton" class="circle-button-dwn d-flex justify-content-center align-items-center"
             data-bs-toggle="modal" data-bs-target="#myModalappdwn">
             <img src="images/logo.png" alt="Icon" class="button-icon">
         </button>
