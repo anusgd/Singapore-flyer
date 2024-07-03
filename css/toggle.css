@@ -1,4 +1,35 @@
+.cloud-icon {
+  height: 2.25rem;
+}
+
+.toppanel {
+  max-width: 40rem;
+}
+
+.first-td {
+  border-right: 1px solid #ccc;
+}
+
+table {
+  border-collapse: separate;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.icon-text {
+  font-size: 0.75rem;
+}
+
+.icon-text i {
+  font-size: 0.4rem;
+  background-color: transparent;
+  color: chartreuse;
+  margin-right: 0.25rem;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+}
 .language-options {
+    max-height:2.5rem;
     text-wrap: nowrap;
     display: inline-block;
     border: 2px solid #ddd;
@@ -16,11 +47,7 @@
   .language-option {
     display: inline-block;
     width: 25px;
-    /* Smaller width */
     height: 25px;
-    /* Smaller height */
-  
-    /* Reduced margin */
     border-radius: 50%;
     cursor: pointer;
     text-align: center;
